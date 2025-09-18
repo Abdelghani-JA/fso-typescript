@@ -1,0 +1,29 @@
+{
+  "name": "patientor-backend",
+  "version": "1.0.0",
+  "description": "fso part9-c exercises",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint .",
+    "start": "node ./build/index.js"
+  },
+  "author": "Abdelghani JALDA",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "eslint": "^9.26.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.30"
+  }
+}
